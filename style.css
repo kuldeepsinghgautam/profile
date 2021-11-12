@@ -121,24 +121,87 @@ th,td {padding:15px; text-align:left;}
 
 
 
-/* ------------  TABLE RESPONSIVE MEDIA QUERY -------------- */
 
 
-#tableres {margin: 20px 310px 20px 310px; }
-
-@media screen and (max-width: 900px) {#tableres {margin: 20px 30px 20px 30px;} }
-
-/*------------------------------------------------------------*/
 
 
- /* ------------  PROFILE RESPONSIVE MEDIA QUERY -------------- */
+
+/*--------------  ALL ORGINAL SIZE ------------*/
 
 
+
+/*-- FOR PROFILE --*/
 #profsize {margin: 20px 310px 20px 310px; }
 
-@media screen and (max-width: 900px) {#profsize {margin: 20px 30px 20px 30px;} }
+/*-- FOR TOPIC --*/
+#topsize {margin: 20px 200px 20px 200px; }
 
-/*------------------------------------------------------------*/
+/*-- FOR BUTTON --*/
+#btsize {margin: 20px 460px 20px 460px; }
+
+/*-- FOR TALBLE --*/
+#tableres {margin: 20px 310px 20px 310px; }
+
+
+
+/* ------------ Small devices PHONE (max-width: 600px) RESPONSIVE-------------- */
+
+ @media screen and (max-width: 600px) 
+ {
+
+  #tableres {margin: 20px 150px 20px 150px;} 
+  #btsize {margin: 20px 60px 20px 60px;}
+  #profsize {margin: 20px 150px 20px 150px;} 
+
+}
+
+
+/* ------------ Medium devices landscape tablets (max-width: 768px) RESPONSIVE-------------- */
+
+ 
+ @media screen and (max-width: 768px)
+
+  {
+  
+    #profsize {margin: 20px 60px 20px 60px;} 
+
+  }
+
+
+/* ------------ Large devices laptops/desktops (max-width: 992px) RESPONSIVE--------------- */
+
+@media screen and (max-width: 996px) 
+
+{
+  #tableres {margin: 20px 30px 20px 30px;} 
+  #profsize {margin: 20px 30px 20px 30px;}
+  #topsize {margin: 20px 30px 20px 30px;}
+  #btsize {margin: 20px 60px 20px 60px;}
+ 
+}
+
+
+@media only screen 
+  and (min-width: 996px) 
+  and (max-width: 1209px) 
+{
+  #tableres {margin: 20px 30px 20px 30px;} 
+  #profsize {margin: 20px 130px 20px 130px;}
+  #topsize {margin: 20px 30px 20px 30px;}
+  #btsize {margin: 20px 140px 20px 140px;}
+ 
+}
+
+
+/* -------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
  /* ---------------------------  MOVING UP CARD  -------------------------- */
 
 #profsize {
@@ -151,28 +214,10 @@ th,td {padding:15px; text-align:left;}
 
 
 
- /* ------------  TOPIC RESPONSIVE MEDIA QUERY -------------- */
 
 
-#topsize {margin: 20px 200px 20px 200px; }
-
-@media screen and (max-width: 900px) {#topsize {margin: 20px 30px 20px 30px;} }
-
-/*------------------------------------------------------------*/
 
 
-/*-----------------------------------------------------*/
-
- 
-
-/* ------------  MOBILE RESPONSIVE Button -------------- */
-
-
-#btsize {margin: 20px 460px 20px 460px; }
-
-@media screen and (max-width: 900px) {#btsize {margin: 20px 60px 20px 60px;} }
-
-/*------------------------------------------------------------*/
 
 
  
