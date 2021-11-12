@@ -1,4 +1,10 @@
 
+* { margin: 0px; padding:0px; font-family: arial;}
+a { text-decoration: none; }
+
+body{margin: 0px;}
+
+
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -109,27 +115,8 @@ th,td {padding:15px; text-align:left;}
 
 /*-----------------------------------------------------*/
 
-
  
 
-
- 
-
-/* ------   NAV  STICKY CSS ---------- */
-
-.sticknav { top:0; position:-webkit-sticky; position:sticky; }
-
-
-
-/*-----------------------------------------------------*/
-
-
- 
-
- 
-
- 
- 
  /* ------------  PROFILE RESPONSIVE MEDIA QUERY -------------- */
 
 
@@ -151,7 +138,12 @@ th,td {padding:15px; text-align:left;}
 
 /*------------------------------------------------------------*/
 
-/* ------------  MOBILE RESPONSIVE Button   MEDIA QUERY -------------- */
+
+/*-----------------------------------------------------*/
+
+ 
+
+/* ------------  MOBILE RESPONSIVE Button -------------- */
 
 
 #btsize {margin: 20px 460px 20px 460px; }
