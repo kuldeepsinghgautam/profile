@@ -1,377 +1,1344 @@
 <!DOCTYPE html>
-
 <html>
-
-<head>
-<title>Profile</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1" >
-<link rel="stylesheet" type="text/css" href="style.css">
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="scripts.js"></script>
+<link rel="stylesheet" href="style.css">
+
+<style>
 
 
-    
-    <!-- Google Fonts and color -->
-    
-   <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css' rel='stylesheet'/>
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'/>
-<link href='https://www.w3schools.com/lib/w3-colors-metro.css' rel='stylesheet'/> 
 
- 
-</head>
 
+</style>
 <body>
 
- <!---------------------------------------------------------------------------->
-
-
-
-<!---------------------------- WEBSITE MAIN IMAGE BANNER  -------------------------->
-<div style=" background-color: #FFEF3C;   " >
-
- <h2 style="  text-align:center; padding:10px; margin: 0px; color:black; background-color:#FFEF3C; box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);  font-family: 'Lobster', cursive; border-radius: 50px;">MY PROJECTS</h2>
-
-
-
-
-
-
-
-
-
-<!----------PROFILE PIC -------->
-
-<div  id="profsize" style="  background: linear-gradient(to right, #7f00ff, #e100ff);" class="w3-row-padding  w3-card-4 w3-round-xxlarge " >
-  
-
- 
-<div class="w3-half w3-container w3-center " >
- <img class="w3-circle w3-card-4 w3-hover-grayscale" src="https://1.bp.blogspot.com/-B9FCNnASyRA/YXRL6JMN-5I/AAAAAAAAKJ4/zXt8BeIM0H43eqD89Z0_TkIG2suAqkr9QCLcBGAsYHQ/s320/KD60.png" style=" margin-left: 0px;  margin-right: 0px; margin-top: 45px;   ; transition: 0.9s; width:220px; height:220px;" />
- </div>
- 
-<!-------------------->
-
-<div class="w3-half w3-container w3-center w3-padding " style="  margin-left: 0px; ">
-  <h4 style="color:white; padding-top: 30px;   "><b>KULDEEP SINGH GAUTAM</b></h4>
-  <h6 style="color:yellow;"> B.TECH (EEE) | A-LEVEL (IT)</h6><br />
-  
-  <!------------- SOCIAL MEDIA ---------------->
-<div class="  " style="border: 0px solid gray;  text-align: center; ">
-<div class="scrollmenuhz">
-  <a class="mpy-zoom fa fa-youtube-play w3-text-white w3-hover-text-black w3-margin" href="https://www.youtube.com/channel/UC8Y3zuJsxrKRpoUOfJdSiww/" style="font-size: 25px; padding: 2px; transition: all 1s ease 0s;" target="_blank"> 
- </a>
- <a class="mpy-zoom fa fa-instagram w3-text-white w3-hover-text-black w3-margin" href="https://www.instagram.com/mypicyard" style="font-size: 25px; padding: 2px; transition: all 1s ease 0s;" target="_blank"> 
- </a> 
-    <a class="mpy-zoom fa fa-linkedin w3-text-white w3-hover-text-black w3-margin" href="https://www.linkedin.com/in/mypicyard" style="font-size: 25px; padding: 2px; transition: all 1s ease 0s;" target="_blank"> 
- </a>
-  
-  <a class="mpy-zoom fa fa-envelope  w3-text-white w3-hover-text-black w3-margin" href="mailto:imkuldeep8@gmail.com" style="font-size: 25px; padding: 2px; transition: all 1s ease 0s;" target="_blank"></a>
- 
-   </div> 
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="leftMenu">
+  <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
 </div>
-  <!------------ ---------------->
-  <span style="margin:10px; font-size:13px; color:yellow;">
-  <p style=" text-align:left;"><b>Languages : </b>Python, R, C++, HTML, CSS </p>
-  <p style=" text-align:left;"><b>Database :</b> MongoDB, MariaDB </p>
-  <p style=" text-align:left;"><b>Technologies :</b> IOT,Computer Vision,ML,NLP  </p>
-  <p style=" text-align:left;"><b>Projects :</b> Object,Helmet Detection n Counting, Face Recognition </p>
-  </span> 
 
+
+
+<div class="w3-amber">
+  <button class="w3-button w3-amber w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
+ 
+  <div class="w3-container">
+  
+  </div>
+</div>
+
+
+<!--  -->
+  <div style="background-color: rgb(136, 2, 2); width: 100%; height: 25px;"></div>
+<h2 style="text-align: center; background-color: rgb(39, 39, 39); color: white; text-align: left; padding-left: 15px;">Student Profile</h2>
+<div class="w3-container">
+ 
+<!-- ------------- -->
+</div>
+
+
+
+
+
+
+
+
+<div class="  w3-row-padding w3-border w3-card-4 w3-round-xlarge  kuldeep-h-s " style="color:#1abc9c; margin:60px; background-color:white; transition: all 0.6s ease 0s; margin-top:30px; margin-bottom:30px;   ">
+  
+    <div class="  w3-container   w3-padding  w3-half" > 
+      <table class="">
+        <tr>
+          <td  >Name:</td>
+          <td>Kuldeep (Kuldeep1)</td>
+      </tr>
+      <tr>
+        <td>Mobile:</td>
+        <td>99220202939</td>
+      </tr>
+      <tr>
+        <td>Email:</td>
+        <td>kd@gmail.com</td>
+      </tr>
+      
+      <tr>
+        <td>Branch:</td>
+        <td>Delhi (Coordinator Name)</td>
+      </tr>
+      <tr>
+        <td>Registration Date :</td>
+        <td>dd/mmm/yyyy</td>
+      </tr>
+      <tr>
+        <td>Package :</td>
+        <td>Admission & Visa</td>
+      </tr>
+      
+      
+      
+      </tr>
+      </table>
+     </div>
+     
+    
+      <div class=" w3-half w3-container w3-center w3-padding"> 
+   
+  <table class="">
+    <tr>
+      <td>Student Status:</td>
+      <td>Active</td>
+  </tr>
+  <tr>
+    <td>Payment Status</td>
+    <td>Registration Amount Pending</td>
+  </tr>
+  <tr>
+    <td>Category</td>
+    <td>Public</td>
+  </tr>
+  
+  <tr>
+    <td>Interested Course : </td>
+    <td>Master</td>
+  </tr>
+  <tr>
+    <td>Intake :</td>
+    <td>Summer Intake</td>
+  </tr>
+   
+  
+  </tr>
+  </table>
+     </div>
+     
+   
+   </div>
+ 
+<!-- ------------- -->
+
+<div class=" mpy-moveup-hover w3-row-padding w3-border w3-card-4 w3-round-xlarge  w3-hide-large w3-hide-medium w3-show-small " style="color:#1abc9c; margin:3px; background-color:white; transition: all 0.6s ease 0s; margin-top:30px; margin-bottom:30px;   ">
+  
+  <div class="  w3-container   w3-padding  " > 
+    <table class="">
+      <tr>
+        <td  >Mobile:</td>
+        <td>Mobile (Kuldeep5)</td>
+    </tr>
+    <tr>
+      <td>Mobile:</td>
+      <td>99220202939</td>
+    </tr>
+    <tr>
+      <td>Email:</td>
+      <td>kd@gmail.com</td>
+    </tr>
+    
+    <tr>
+      <td>Branch:</td>
+      <td>Delhi (Coordinator Name)</td>
+    </tr>
+    <tr>
+      <td>Reg Date :</td>
+      <td>dd/mmm/yyyy</td>
+    </tr>
+    <tr>
+      <td>Package :</td>
+      <td>Admission & Visa</td>
+    </tr>
+    
+    <tr>
+      <td>Student Status:</td>
+      <td>Active</td>
+  </tr>
+  <tr>
+    <td>Payment Status</td>
+    <td>Reg. Amount Pending</td>
+  </tr>
+  <tr>
+    <td>Category</td>
+    <td>Public</td>
+  </tr>
+  
+  <tr>
+    <td>Interested Course : </td>
+    <td>Master</td>
+  </tr>
+  <tr>
+    <td>Intake :</td>
+    <td>Summer Intake</td>
+  </tr>
+   
+    </table>
+ 
+   </div>
+   
+ 
+ </div>
+
+<!-- ---------------------------------- -->
+
+
+
+
+
+
+
+
+
+  <!-- MAIN (Center website) -->
+<div  style="padding: 25px;">
+
+   
+  <div id="myBtnContainer" style="text-align: center;">
+    <!-- <button class="btn active" onclick="filterSelection('all')"> Summary</button> -->
+    <button class="btn active" onclick="filterSelection('Summary')"> Summary</button>
+    <button class="btn" onclick="filterSelection('Profile')"> Profile </button>
+    <button class="btn" onclick="filterSelection('Payment')"> Payment</button>
+    <button class="btn" onclick="filterSelection('Document')"> Document</button>
+    <button class="btn " onclick="filterSelection('APS')"> APS</button>
+    <button class="btn" onclick="filterSelection('CL')"> Course Listing</button>
+    <button class="btn" onclick="filterSelection('cvsop')"> CV/SOP</button>
+    <button class="btn" onclick="filterSelection('Admission')"> Admission</button>
+    <button class="btn" onclick="filterSelection('Visa')"> Visa</button>
+    <button class="btn" onclick="filterSelection('Activity')"> Activity</button>
   </div>
   
-<!-------------------->
-  
 
+<hr style="border: 1px solid; ">
 
+  <!-- Portfolio Gallery Grid -->
+  <div class="row"  >
+   
+    
+      
+    
+    <div class="column Summary">
+      <div class="content">
+       <h2> Summary</h2>
+      <form action="">
+       
+      </form>
+      </div>
+    </div>
+   
+    
+    <div class="column Profile" style="width: 100%;">
+      <div class="content">
+      
+      <form action="" style="text-align: center;">
 
+       <div>
+       
+<h2 style="text-align: center; font-size: 20px; cursor: pointer; background-color: rgb(39, 39, 39); color: white; text-align: left; padding-left: 10px;" >YG Details</h2>
  
+  <div   style="padding: 5px;"   class="w3-quarter" >
+    <label for="">Student ID : </label>  
+    <input type="text"> 
+  </div>
   
+ 
+  <div style="padding: 5px;"  class="w3-quarter">
+    
+    <label for="">Password :</label>  
+    <input type="text"> 
+  </div>
+
+  <div style="padding: 5px;"  class="w3-quarter">
+    
+    <label for="">YG Email : </label>  
+    <input type="text"> 
+  </div>
+  <div style="padding: 5px;"  class="w3-quarter">
+    <label for="">YG Email Password: </label>  
+    <input type="text"> 
+  </div>
+       </div>
+
+       <div>
+       
+        <h2 style="text-align: center; font-size: 20px; cursor: pointer; background-color: rgb(39, 39, 39); color: white; text-align: left; padding-left: 10px;" >Student Personal Details</h2>
+         
+          <div   style="padding: 5px;"   class="w3-quarter" >
+            <label for="">First Name : </label>  
+            <input type="text"> 
+          </div>
+          
+         
+          <div style="padding: 5px;"  class="w3-quarter">
+            
+            <label for="">Last Name :</label>  
+            <input type="text"> 
+          </div>
+        
+          <div style="padding: 5px;"  class="w3-quarter">
+            
+            <label for="">Date Of Birth : </label>  
+            <input type="date"> 
+          </div>
+          <div style="padding: 5px;"  class="w3-quarter">
+            <label for="">Gender </label>  
+         <select name="" id="">
+
+          <option value="">Male</option>
+          <option value="">Female</option>
+          <option value="">Transgender</option>
+         </select>
+          </div>
+         
+               </div>
+
+
+               <div>
+       
+                 
+                  <div   style="padding: 5px;"   class="w3-quarter" >
+                    <label for="">Student Email Id: </label>  
+                    <input type="text"> 
+                  </div>
+                  
+                 
+                  <div style="padding: 5px;"  class="w3-quarter">
+                    
+                    <label for="">Mobile No :</label>  
+                    <input type="text"> 
+                  </div>
+                
+                  <div style="padding: 5px;"  class="w3-quarter">
+                    
+                    <label for="">Father's Name : </label>  
+                    <input type="text"> 
+                  </div>
+               
+                  <div style="padding: 5px;"  class="w3-quarter">
+                    
+                    <label for="">Mother's Name : </label>  
+                    <input type="text"> 
+                  </div>
+                 
+                       </div>
+        
+
+
+                       <div>
+       
+                         
+                          <div   style="padding: 5px;"   class="w3-quarter" >
+                            <label for="">Father's Contact No: </label>  
+                            <input type="text"> 
+                          </div>
+                          
+                         
+                          <div style="padding: 5px;"  class="w3-quarter">
+                            
+                            <label for="">Father's Email Id :</label>  
+                            <input type="text"> 
+                          </div>
+                        
+                          <div style="padding: 5px;"  class="w3-quarter">
+                            
+                            <label for="">Mother's Contact No: </label>  
+                            <input type="text"> 
+                          </div>
+                       
+                          <div style="padding: 5px;"  class="w3-quarter">
+                            
+                            <label for="">Mother's Email Id: </label>  
+                            <input type="text"> 
+                          </div>
+                         
+                               </div>
+
+
+
+
+                               <div>
+       
+                         
+                                <div   style="padding: 5px;"   class="w3-quarter" >
+                                  <label for="">Complete Address: </label>  
+                                  <input type="text"> 
+                                </div>
+                                
+                                <div style="padding: 5px;"  class="w3-quarter">
+                                  
+                                  <label for="">City: </label>  
+                                  <input type="text"> 
+                                </div>
+
+                                <div style="padding: 5px;"  class="w3-quarter">
+                                  
+                                  <label for="">Pin Code: </label>  
+                                  <input type="text"> 
+                                </div>
+                               
+                                <div style="padding: 5px;"  class="w3-quarter">
+                                  
+                                  <label for="">State:</label>  
+                                  <input type="text"> 
+                                </div>
+                                     </div>
+
+                                     <div>
+                                  <div   style="padding: 5px;"   class="w3-quarter" >
+                                        <label for="">Passport No: </label>  
+                                        <input type="text"> 
+                                      </div>
+                                      
+                                      <div style="padding: 5px;"  class="w3-quarter">
+                                        
+                                        <label for="">Passport Expiry Date: </label>  
+                                        <input type="date"> 
+                                      </div>
+      
+                                      <div style="padding: 5px;"  class="w3-quarter">
+                                        
+                                        <label for="">Nationality: </label>  
+                                        <input type="text"> 
+                                      </div>
+                                      <div style="padding: 5px;"  class="w3-quarter">
+                                        
+                                        <label for="">Former Nationality: </label>  
+                                        <input type="text"> 
+                                      </div>
+                                     
+                                      <div style="padding: 5px;"  class="w3-quarter">
+                                        
+                                        <label for="">Place of Birth:</label>  
+                                        <input type="text"> 
+                                      </div>
+                                      <div style="padding: 5px;"  class="w3-quarter">
+                                        
+                                        <label for="">Country of Birth:</label>  
+                                        <input type="text"> 
+                                      </div>
+
+                                      <div style="padding: 5px;"  class="w3-quarter">
+                                        
+                                        <label for="">Passport Place of Issue:</label>  
+                                        <input type="text"> 
+                                      </div>
+                                           </div>
+
+
+
+                                           <div>
+
+                  
+                                            <div   style="padding: 5px;"   class="w3-quarter" >
+                                      <label for="">Marital Status: </label>  
+                                      <input type="text"> 
+                                            </div>
+                                    
+                                    <div style="padding: 5px;"  class="w3-quarter">
+                                              
+                                       <label for="">Have you ever been convicted?: </label>  
+                                       <select name="" id="">
+                                        <option value="">Yes</option>
+                                        <option value="">No</option>
+                                       </select>
+                                    </div>
+
+
+                                    <div style="padding: 5px;"  class="w3-quarter">
+                                              
+                                      <label for="">Have you been deported?: </label>  
+                                        <select name="" id="">
+                                             <option value="">Yes</option>
+                                             <option value="">No</option>
+                                            </select>
+                                   </div>
+            
+                                   <div style="padding: 5px;"  class="w3-quarter">
+                                              
+                                    <label for="">Have you ever been to Germany?: </label>  
+                                      <select name="" id="">
+                                           <option value="">Yes</option>
+                                           <option value="">No</option>
+                                          </select>
+                                 </div>
+                                   
+                                            <div style="padding: 5px;"  class="w3-quarter">
+                                      
+                                              <label for="">Last 5 Stays in Germany:</label>  
+                                              <input type="text"> 
+                                            </div>
+                                         </div>
+
+
+
+
+
+
+                                     <div  style="width: 100%;">
+                                      <h2 style="text-align: center; font-size: 20px; cursor: pointer; background-color: rgb(39, 39, 39); color: white; text-align: left; padding-left: 10px;" >Academic Details</h2>
+        
+                                      <div   style="padding: 5px; width: 100%;"    >
+<table>
+  <tr><th>Qualification </th><th>Passing Year</th><th> Score Obtain</th><th>Max Marks</th><th>College/School</th><th> University/Board </th><th>Professor's Email ID</th></tr>
+  <tr><td>10th</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+  <tr><td>12th</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+  <tr><td>Diploma</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+  <tr><td>Bachelor</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+  <tr><td>Masters</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+
+</table>
+
+                                     
+                                           </div>
+
+                                          </div>
+
+
+
+
+
+
+
+
+
+                                          <div>
+       
+                                            <h2 style="text-align: center; font-size: 20px; cursor: pointer; background-color: rgb(39, 39, 39); color: white; text-align: left; padding-left: 10px;" >APS Details</h2>
+                                             
+                                              <div   style="padding: 5px;"   class="w3-quarter" >
+                                                <label for="">Full Name Payer : </label>  
+                                                <input type="text"> 
+                                              </div>
+                                              
+                                             
+                                              <div style="padding: 5px;"  class="w3-quarter">
+                                                
+                                                <label for="">Payment Method :</label>  
+                                                <input type="text"> 
+                                              </div>
+                                            
+                                              <div style="padding: 5px;"  class="w3-quarter">
+                                                
+                                                <label for="">Bank Name : </label>  
+                                                <input type="text"> 
+                                              </div>
+                                              <div style="padding: 5px;"  class="w3-quarter">
+                                                <label for="">IFSC Code : </label>  
+                                                  <input type="text">
+                                              </div>
+                                             
+                                                   </div>
+                                    
+                                    
+                                                   <div>
+                                           
+                                                     
+                                                      <div   style="padding: 5px;"   class="w3-quarter" >
+                                                        <label for="">Referance No: </label>  
+                                                        <input type="text"> 
+                                                      </div>
+                                                      
+                                                     
+                                                      <div style="padding: 5px;"  class="w3-quarter">
+                                                        
+                                                        <label for="">Amount Paid :</label>  
+                                                        <input type="number"> 
+                                                      </div>
+                                                    
+                                                      <div style="padding: 5px;"  class="w3-quarter">
+                                                        
+                                                        <label for="">Payment Date : </label>  
+                                                        <input type="date"> 
+                                                      </div>
+                                                   
+                                                                                              
+                                                           </div>
+
+
+
+
+                                                           <div>
+       
+                                                            <h2 style="text-align: center; font-size: 20px; cursor: pointer; background-color: rgb(39, 39, 39); color: white; text-align: left; padding-left: 10px;" >TestAS</h2>
+                                                             
+                                                              <div   style="padding: 5px;"   class="w3-quarter" >
+                                                                <label for="">TestAS Date : </label>  
+                                                                <input type="date"> 
+                                                              </div>
+                                                              
+                                                             
+                                                              <div style="padding: 5px;"  class="w3-quarter">
+                                                                
+                                                                <label for="">TestAS Subject :</label>  
+                                                                <input type="text"> 
+                                                              </div>
+                                                            
+                                                              <div style="padding: 5px;"  class="w3-quarter">
+                                                                
+                                                                <label for="">Core TestAS Score: </label>  
+                                                                <input type="text"> 
+                                                              </div>
+                                                              <div style="padding: 5px;"  class="w3-quarter">
+                                                                <label for="">Subject Related TestAS Score: </label>  
+                                                                  <input type="text">
+                                                              </div>
+                                                             
+                                                                   </div>
+                                                    
+                                                    
+                                                                   <div>
+                                                           
+                                                                     
+                                                                      <div   style="padding: 5px;"   class="w3-quarter" >
+                                                                        <label for="">English Language Test: </label>  
+                                                                        <input type="text"> 
+                                                                      </div>
+                                                                      
+                                                                     
+                                                                      <div style="padding: 5px;"  class="w3-quarter">
+                                                                        
+                                                                        <label for="">German Language Test :</label>  
+                                                                        <input type="text"> 
+                                                                      </div>
+                                                                                                                                                                               
+                                                                           </div>
+                
+
+                                                                           
+                                                          
+                                     <div  style="width: 100%;">
+                                      <h2 style="text-align: center; font-size: 20px; cursor: pointer; background-color: rgb(39, 39, 39); color: white; text-align: left; padding-left: 10px;" >Work Experience</h2>
+        
+                                      <div   style="padding: 5px; width: 100%;"    >
+<table>
+  <tr><th>Organisation</th><th>Designation</th><th>From</th><th>To</th><th>Job Type</th> </tr>
+  <tr><td><input type="text"></td><td><input type="text"></td><td><input type="date"></td><td><input type="date"></td> <td><select name="" id=""><option value="">Full Time</option><option value="">Part Time</option><option value="">Internship</option><option value="">Other</option></select></td></td></tr>
+  <tr><td><input type="text"></td><td><input type="text"></td><td><input type="date"></td><td><input type="date"></td> <td><select name="" id=""><option value="">Full Time</option><option value="">Part Time</option><option value="">Internship</option><option value="">Other</option></select></td></td></tr>
+
+
+</table>
+
+                                     
+                                           </div>
+
+                                          </div>
+
+                
+
+
+
+
+
+                                          <button type="submit" style="padding: 5px 15px; color: rgb(255, 255, 255); background-color: rgb(82, 81, 80); border: 0px solid rgb(100, 100, 100); border-radius:10px;" >Submit</button>
+                                          
+
+      </form>
+      </div>
+    </div>
+
+
+    
+
+
+    <div class="column Payment">
+    
+      <div >
+<!-- --------------MAIN SECTION-------------- -->
+<!-- Create Array for Payment Status -->
+ <div class="w3-card-4  " style="width: 200%;"  >
+  <!-- --------------FIRST SECTION OF PAYMENT-------------- -->
+<div class="w3-half w3-white " style="padding: 30px;"> 
+<form action="">
+<label for="" >Payment Status :</label>
+<select style="border: 2px solid rgb(228, 194, 1); border-radius:10px;">
+<option >Registration Penidng</option>
+<option>Admission Process Started</option>
+<option>Admission Amount Penidng</option>
+<option>Visa Process Started</option>
+<option>Visa Amount Penidng</option>
+<option>Completed</option>
+<option>Refund</option>
+</select>
+
+<br>
+<br>
+<!-- date should be disabled for tomorow onward -->
+<label for="">Payment Date :</label>
+<input type="date" style="border: 2px solid rgb(228, 194, 1); border-radius:10px;">
+
+<br>
+<br>
+<label    for="">Payment Amount:</label>
+<input  type="number" style="border: 2px solid rgb(228, 194, 1); border-radius:10px;">
+
+
+
+<br>
+<br>
+<label for="">Upload Payment Proof:</label>
+<input type="file" >
+
+
+<br>
+<br>
+<button type="submit" style="padding: 5px 15px; color: rgb(255, 255, 255); background-color: rgb(82, 81, 80); border: 0px solid rgb(100, 100, 100); border-radius:10px;" >Submit</button>
+<button type="reset" style="padding: 5px 15px;  color: rgb(255, 255, 255); background-color: rgb(82, 81, 80); border: 0px solid rgb(228, 194, 1); border-radius:10px;" >Reset</button>
+</form>
 </div>
 
-<br />
 
 
+<!-- --------------SECOND SECTION OF PAYMENT-------------- -->
 
-<!------------TOPICS  ---------------->
+<!-- <div class="w3-half" style="background-color: lightgray; padding: 20px;" >
+<label for="">Payment Status :</label> Completed
+<br>
+<label for="">Payment Date :</label> Completed
+<br>
+<label for="">Payment Amount :</label> Completed
+<br>
+<label for="">Payment Proof :</label> view
+<br>
+<label for="">Entry Added By</label>
+</div> -->
 
-
-
-<div id="topsize" class=" w3-card-4 w3-round-large w3-white " style="  text-align: center;   border:0px solid gray; ">
-
-
-<b class="w3-margin  " style="  color: #7f00ff; 
-font-family: 'Lobster', cursive;  font-size:30px;   ">Topics</b>
-
-
-<div class="scrollmenuhz " id="accessories">
-
-<a class=" mpy-zoom    fa fa-code w3-text-white w3-card-4 w3-margin w3-round-large" style=" transition: all 0.6s ease 0s; height:100px; width: 100px; border-radius:90px; line-height: 1.6;  font-size:35px; background: linear-gradient(to right, #7f00ff, #e100ff); ">  <p class="w3-text-white" style="font-size:11px; font-family: arial; ">Web Dev</p></a>
-
-<a   class=" mpy-zoom  fa fa-microchip w3-text-white w3-card-4 w3-margin w3-round-large" style=" transition: all 0.6s ease 0s; height:100px; width: 100px;  line-height: 1.6;  border-radius:90px; font-size:35px;  background: linear-gradient(to right, #7f00ff, #e100ff);">  <p class="w3-text-white" style="font-size:11px; font-family: arial; line-height: 1;">AI</p></a>
-
-<a   class=" mpy-zoom   fa fa-camera w3-text-white w3-card-4 w3-margin w3-round-large" style=" transition: all 0.6s ease 0s; height:100px; width: 100px;  line-height: 1.6;  border-radius:90px; font-size:35px;  background: linear-gradient(to right, #7f00ff, #e100ff);">  <p class="w3-text-white" style="font-size:11px; font-family: arial; ">CV</p></a>
-
-
-
-<a   class=" mpy-zoom   fa fa-microphone w3-text-white w3-card-4 w3-margin w3-round-large" style=" transition: all 0.6s ease 0s; height:100px; width: 100px;  line-height: 1.6;  border-radius:90px; font-size:35px; background: linear-gradient(to right, #7f00ff, #e100ff); ">  <p class="w3-text-white" style="font-size:11px; font-family: arial;  ">NLP</p></a>
-
-
-
-<a   class=" mpy-zoom    fas fa-robot w3-text-white w3-card-4 w3-margin w3-round-large" style=" transition: all 0.6s ease 0s; height:100px; width: 100px;  line-height: 1.6;  border-radius:90px; font-size:35px; background: linear-gradient(to right, #7f00ff, #e100ff); ">  <p class="w3-text-white" style="font-size:11px; font-family: arial; ">ML</p></a>
-
-
-<a class=" mpy-zoom   fas fa-brain w3-text-white w3-card-4 w3-margin w3-round-large" style=" transition: all 0.6s ease 0s; height:100px; width: 100px;  line-height: 1.6;  border-radius:90px; font-size:35px;  background: linear-gradient(to right, #7f00ff, #e100ff);">  <p class="w3-text-white" style="font-size:11px; font-family: arial; line-height: 1;">DL</p></a>
-
-
-<a class=" mpy-zoom   fa fa-bar-chart w3-text-white w3-card-4 w3-margin w3-round-large" style=" transition: all 0.6s ease 0s; height:100px; width: 100px;  line-height: 1.6;  border-radius:90px; font-size:35px;  background: linear-gradient(to right, #7f00ff, #e100ff);">  <p class="w3-text-white" style="font-size:11px; font-family: arial; ">Data Science</p></a>
-
-<a class=" mpy-zoom   fa fa-cloud w3-text-white w3-card-4 w3-margin w3-round-large" style=" transition: all 0.6s ease 0s; height:100px; width: 100px;  line-height: 1.6;  border-radius:90px; font-size:35px; background: linear-gradient(to right, #7f00ff, #e100ff); ">  <p class="w3-text-white" style="font-size:11px; font-family: arial; ">IOT</p></a>
-
-
-<a class=" mpy-zoom   fa fa fa-volume-up w3-text-white w3-card-4 w3-margin w3-round-large" style=" transition: all 0.6s ease 0s; height:100px; width: 100px;  line-height: 1.6;   border-radius:90px; font-size:35px; background: linear-gradient(to right, #7f00ff, #e100ff); ">  <p class="w3-text-white" style="font-size:11px; font-family: arial; ">Django Flask</p></a>
-
-
-<a class=" mpy-zoom   fab fa-python w3-text-white w3-card-4 w3-margin w3-round-large" style=" transition: all 0.6s ease 0s; height:100px; width: 100px;  line-height: 1.6;  border-radius:90px; font-size:35px;  background: linear-gradient(to right, #7f00ff, #e100ff);">  <p class="w3-text-white" style="font-size:11px; font-family: arial; ">Python</p></a>
-
-<a class=" mpy-zoom   fab fa-r-project w3-text-white w3-card-4 w3-margin w3-round-large" style=" transition: all 0.6s ease 0s;   height:100px; width: 100px; line-height: 1.6;    line-height: 1.6;  border-radius:90px; font-size:35px; background: linear-gradient(to right, #7f00ff, #e100ff); ">  <p class="w3-text-white" style="font-size:11px; font-family: arial; ">R </p></a>
-
-
-
- 
-   </div>
-
-   </div>
-
-<br />
-<br />
-
- 
-
-
-
-<!----- WAVE CURVE CREATED BY https://getwaves.io/ ---->
-
-<div style=" background: linear-gradient(to left, #7f00ff, #e100ff);  text-align:center;  height:100%; ">
-
-
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FFEF3C" fill-opacity="1" d="M0,32L40,69.3C80,107,160,181,240,208C320,235,400,213,480,181.3C560,149,640,107,720,85.3C800,64,880,64,960,85.3C1040,107,1120,149,1200,160C1280,171,1360,149,1400,138.7L1440,128L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
-</svg>
-
-
-
-
- 
+<!------------------------------ -->
+</div>
+<!-- --------------MAIN SECTION-------------- -->
 
 
 </div>
-<!---------------------------------------------------------------------------->
+    </div>
 
 
 
 
+  
+    <div class="column Document" style="width: 100%;" >
+      <div class="content">
+         
+  
+
+<div style="text-align: center;">
+
+  <button   style="color: white; background-color: rgb(122, 122, 122);"   >Personal</button>
+  <button   style="color: white; background-color: rgb(122, 122, 122);"  >Academic</button>
+  <button   style="color: white; background-color: rgb(122, 122, 122);"   >APS</button>
+  <button   style="color: white; background-color: rgb(122, 122, 122);"  >Admission</button>
+  <button   style="color: white; background-color: rgb(122, 122, 122);"   >Visa</button>
+
+</div>
 
 
 
 
+<div  style="width: 100%;">
+  <h2 style="text-align: center; font-size: 20px; cursor: pointer; background-color: rgb(39, 39, 39); color: white; text-align: left; padding-left: 10px;" >Personal Document</h2>
 
+  <div   style="padding: 5px; width: 100%;"    >
+<table>
+<tr>
+  <th>Document Type : 10th</th>
+  <th>Document Name :  <input type="text" placeholder="10th Marksheet"></th>
+  <th>Document Number: <input type="text" placeholder="39487839"> </th>
+  <th>Document Status: <select name="" id=""><option value="">Not Uploaded</option><option value="">Uploaded</option><option value="">Approved</option><option value="">Reject</option></select></th>
+  <th>View File: <input type="file"></th>
+  <th>Uploaded On: <input type="date"></th>
+  <th>Modified On: <input type="date"></th>
+  <th>Modified By: Kuldeep</th>
+</tr>
+<tr>
+ 
+ 
+ 
+ 
 
-
-
-<!----------   TOPIC BUTTONS ----------------->
-
-<div id="topic w3-center"  >
-<div style="  background: linear-gradient(to left, #7f00ff, #e100ff);">
+</table>
 
  
+       </div>
+
+      </div>
+
+
+<div  style="width: 100%;">
+  <h2 style="text-align: center; font-size: 20px; cursor: pointer; background-color: rgb(39, 39, 39); color: white; text-align: left; padding-left: 10px;" >Academic Document</h2>
+
+  <div   style="padding: 5px; width: 100%;"    >
+<table>
+<tr><th>Qualification </th><th>Passing Year</th><th> Score Obtain</th><th>Max Marks</th><th>College/School</th><th> University/Board </th><th>Professor's Email ID</th></tr>
+<tr><td>10th</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+<tr><td>12th</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+<tr><td>Diploma</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+<tr><td>Bachelor</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+<tr><td>Masters</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+
+</table>
+
+ 
+       </div>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+
+
+
+    <div class="column APS"  style="width: 100%;">
+      <div class="content">
+         
+        <form action="" style="text-align: center;  ">
+
+          <div>
+          
+     <div   style="padding: 5px;"   class="w3-quarter" >
+       <label for="">APS Login Id : </label>  
+       <input type="text"> 
+     </div>
+     
+    
+     <div style="padding: 5px;"  class="w3-quarter">
+       
+       <label for="">APS Password :</label>  
+       <input type="text"> 
+     </div>
+   
+     <div style="padding: 5px;"  class="w3-quarter">
+       
+       <label for="">APS Process Status : </label>  
+       <input type="text"> 
+     </div>
+     <div style="padding: 5px;"  class="w3-quarter">
+       <label for="">APS Payment Status: </label>  
+       <input type="text"> 
+     </div>
+          </div>
+   
+
+
+          <div>
+          
+            <div   style="padding: 5px;"   class="w3-quarter" >
+              <label for="">APS Payment Date : </label>  
+              <input type="date"> 
+            </div>
+            
+           
+            <div style="padding: 5px;"  class="w3-quarter">
+              
+              <label for="">APS Applied Date :</label>  
+              <input type="date"> 
+            </div>
+          
+            <div style="padding: 5px;"  class="w3-quarter">
+              
+              <label for="">APS Recevied : </label>  
+              <input type="text">
+            </div>
+            <div style="padding: 5px;"  class="w3-quarter">
+              <label for="">APS Recevied Date : </label>  
+              <input type="date"> 
+            </div>
+                 </div>
+          
+                 <div>
+          
+                  <div   style="padding: 5px;"   class="w3-quarter" >
+                    <label for="">APS Number : </label>  
+                    <input type="text"> 
+                  </div>
+                  
+                 
+                  <div style="padding: 5px;"  class="w3-quarter">
+                    
+                    <label for="">Proof of Residance Requried ? :</label>  
+                    <input type="date"> 
+                  </div>
+                
+                  <div style="padding: 5px;"  class="w3-quarter">
+                    
+                    <label for="">APS Certificate Copy : </label>  
+                    <input type="file">
+                  </div>
+                  <div style="padding: 5px;"  class="w3-quarter">
+                    <button type="submit">Submit</button>
+                  </div>
+                       </div>
+
+
+
+ 
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="column CL" style="width: 100%; text-align: center;">
+      <div class="content">
+         
+        <h2> </h2> 
+
+        <button   style="color: white; background-color: rgb(122, 122, 122);"   >Add Course</button>
+<br><br>
+<table class="cl">
+  <th>University Type</th>
+  <th>University Name</th>
+<th>Course Name</th>
+<th>Course Link</th>
+<th>Intake</th>
+<th>EPT Requirement</th>
+<th>Fee Detail</th>
+<th>Deadline</th>
+<th>YG Status</th>
+<th>Student Status</th>
+<th>Added By</th>
+<th>Modified on</th>
+<th>Final Status</th>
+<tr>
+  <td>Public</td>  <td></td>  <td></td>  <td></td>  <td></td>  <td></td>    <td></td>  <td></td>  <td></td>  <td></td><td></td>  <td></td>  <td></td>
+</tr>
+
+<tr>
+  <td>Private</td>  <td></td>  <td></td>  <td></td><td></td>  <td></td>      <td></td>  <td></td>  <td></td>  <td></td><td></td>  <td></td>  <td></td>
+</tr>
+
+</table>
+
+      </div>
+    </div>
+
+
+
+
+
+
+<!-- -------------- -->
+ 
+
+<div class="column cvsop" style="width: 100%; text-align: center;">
+  <div class="content">
+     
+    <h2> </h2> 
+    <h2 style="text-align: center; font-size: 20px; background-color: rgb(39, 39, 39); color: white; text-align: left; padding-left: 10px; cursor: pointer; " onclick="myFunction('mpyDemo9')">CV</h2>
+
+    <div id="mpyDemo9" class="w3-hide" >
+ <!-- ----CV---- -->
+
+ <table class="cl">
+  <th>Uploaded CV File</th>
+  <th>Uploaded By</th>
+  <th>Uploaded On</th>
+  
+  <tr>
+  <td>1</td>       <td></td>  <td></td>  
+  
+  <tr>
+  <td>2</td>      <td></td>  <td></td>  </tr>
+  
+  </table>
+
+    </div>
+
+
+
+
+
+
+    <h2 style="text-align: center; font-size: 20px; background-color: rgb(39, 39, 39); color: white; text-align: left; padding-left: 10px; cursor: pointer; " onclick="myFunction('mpyDemo8')">Admission SOP</h2>
+
+    <div id="mpyDemo8" class="w3-hide" >
+    <!-- -----ADM SOP---- -->
+<table class="cl">
+<th>University Name</th>
+<th>Course Name</th>
+<th>Course Link</th>
+<th>Added On</th>
+<th>SOP Status</th>
+<th>Uploaded SOP File</th>
+
+<tr>
+<td>1</td>  <td></td>  <td></td>  <td></td>     <td></td>  <td></td>  
+
+<tr>
+<td>2</td>  <td></td>  <td></td>  <td></td>     <td></td>  <td></td>  </tr>
+
+</table>
+</div>
+
+
+
+
+
+<h2 style="text-align: center; font-size: 20px; background-color: rgb(39, 39, 39); color: white; text-align: left; padding-left: 10px; cursor: pointer; " onclick="myFunction('mpyDemo7')">Visa SOP</h2>
+<div id="mpyDemo7" class="w3-hide" >
+<!-- ----- VISA SOP---- -->
+<table class="cl">
+<th>University Name</th>
+<th>Course Name</th>
+<th>Intake</th>
+<th>Admission Status</th>
+<th>Offer Letter Status</th>
+<th>Updated On</th>
+<th>Visa SOP File</th>
+<tr>
+<td>1</td>  
+<td></td>  <td></td><td></td>  <td></td>  <td></td><td></td>
+</tr>
+</table>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+<!-- ----------------------- -->
+
+
+
+
+
+
+<div class="column Admission" style="width: 100%; text-align: center;">
+  <div class="content">
+     
+    <h2> </h2> 
 
   <br>
+<table class="cl">
+  <th>University Type</th>
+  <th>University Name</th>
+<th>Course Name</th>
+<th>Course Link</th>
+<th>Intake</th>
+<th>DeadLine Date</th>
+<th>University Application No.</th>
+<th>Admission Status</th>
+<th>Offer Status</th>
+<th>Entrollment Fee Status</th>
+<th>Updated By</th>
+<th>Updated On</th>
+<tr>
+<td>1</td>  <td></td>  <td></td><td></td>  <td></td>    <td></td>  <td></td>  <td></td><td></td>  <td></td>  <td></td>
+</tr>
 
+<tr>
+<td>2</td>  <td></td> <td></td> <td></td> <td></td>     <td></td>  <td></td>  <td></td><td></td>  <td></td>  <td></td>
+</tr>
+
+</table>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- --------------- -->
+
+
+<div style="text-align:left; margin-left:20px;">
+
+
+
+
+<div class="column Visa" style="width: 100%; text-align: center;">
+  <div class="content">
+
+
+<h2 style="text-align: center; font-size: 20px; cursor: pointer; background-color: rgb(39, 39, 39); color: white; text-align: left; padding-left: 10px;" onclick="myFunction('mpyDemo6')">Final Admission</h2>
+<div id="mpyDemo6" class="w3-hide" >
+<table class="cl">
+<th>University Name</th>
+<th>Course Name</th>
+<th>Intake</th>
+<th>Admission Status</th>
+<th>Offer Letter Status</th>
+<th>Updated On</th>
+<th>Visa SOP File</th>
+<tr>
+<td>1</td>  
+<td></td>  <td></td><td></td>  <td></td>  <td></td><td></td>
+</tr>
+</table>
+</div>
+
+
+
+
+
+<h2 style="text-align: center; font-size: 20px; cursor: pointer; background-color: rgb(39, 39, 39); color: white; text-align: left; padding-left: 10px;" onclick="myFunction('mpyDemo5')">APS Status</h2>
+<div id="mpyDemo5" class="w3-hide" >
+<table class="cl">
+<th>APS Process Status</th>
+<th>APS Recevied </th>
+<th>APS Recevied Date</th>
+<th>APS Number</th>
+<tr>
+<td>1</td>  
+<td></td>  <td></td><td></td>   
+</table>
+</div> 
+
+<h2 style="text-align: center; font-size: 20px; cursor: pointer; background-color: rgb(39, 39, 39); color: white; text-align: left; padding-left: 10px;" onclick="myFunction('mpyDemo4')">Block Account</h2>
+<div id="mpyDemo4" class="w3-hide" >
+<table class="cl">
+<th>Block Account Status</th>
+<th>Block Account Company</th> </th>
+<th>Updated On</th>
+<th>Updated By</th>
+<tr>
+<td>1</td>  
+<td></td>   <td></td>   <td></td>   
+</table>
+</div> 
+
+
+<h2 style="text-align: center; cursor: pointer; font-size: 20px; background-color: rgb(39, 39, 39); color: white; text-align: left; padding-left: 10px;" onclick="myFunction('mpyDemo3')">VFS Detail</h2>
+
+<div id="mpyDemo3" class="w3-hide" >
+<table class="cl">
+<th>VFS Region</th>
+<th>VFS ID</th>  
+<th>VFS Password</th>
+<th>VFS Id Created By</th>
+<th>VFS Id Created On</th>
+<tr>
+<td>1</td>  
+<td></td>   <td></td>   <td></td>    <td></td>   
+</tr>
+
+
+</table>
+
+</div> 
+
+
+
+
+<h2 style="cursor: pointer;  text-align: center; font-size: 20px; background-color: rgb(39, 39, 39); 
+color: white; text-align: left; padding-left: 10px;" onclick="myFunction('mpyDemo2')">Visa Document</h2>
+
+<div id="mpyDemo2" class="w3-hide" >
+<table class="cl">
+<th>Document Requried From Student</th>
+<th>Admission Document By Visa Team</th>  
+<th>Visa Document By YG</th>
+<th>Document Status</th>
+<th>Updated On</th>
+<th>Updated By</th>
+<tr>
+<td>1</td>  
+<td></td>   <td></td>   <td></td>    <td></td>    <td></td>   
+</tr>
+</table>
+</div>
+
+
+
+
+<h2  style="cursor: pointer;  text-align: center; font-size: 20px; background-color: rgb(39, 39, 39); 
+color: white; text-align: left; padding-left: 10px;" onclick="myFunction('mpyDemo1')">Visa Status</h2>
+<div id="mpyDemo1" class="w3-hide" >
+  
+<table class="cl">
+<th>Visa Process Status</th>
+<th>Visa File Status</th>  
+<th>Visa Category</th>
+<th>Updated On</th>
+<th>Updated By</th>
+<th>Visa Copy</th>
+<tr>
+<td>1</td>  
+<td></td>   <td></td>   <td></td>    <td></td>   
+</tr>
+</table>   
+    </div>
+
+
+</div>
+
+
+<button type="submit" style="padding: 5px 15px; color: rgb(255, 255, 255); background-color: rgb(82, 81, 80); border: 0px solid rgb(100, 100, 100); border-radius:10px;" >Submit</button>
+<button type="reset" style="padding: 5px 15px;  color: rgb(255, 255, 255); background-color: rgb(82, 81, 80); border: 0px solid rgb(228, 194, 1); border-radius:10px;" >Reset</button>
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+     
+  <!-- END GRID -->
+  </div>
+  
+  <!-- END MAIN -->
+  </div>
+  
+  <script>
+  filterSelection("all")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("column");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+  
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+    }
+  }
+  
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);     
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+  
+  
+  // Add active class to the current button (highlight it)
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function(){
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+  </script>
+  
+
+</div>
+     
+
+ 
+ 
+  
+ 
+  
+
+   
+ 
+ 
+ 
+ 
+  
+ 
+ 
+    <script>
+    function myFunction(mpyDemo1) {
+      var x = document.getElementById(mpyDemo1);
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");  }}</script>
+    
  
 
 
 
-<!----------------------------- BUTTON 1------------------------------------->
+    <script>
+      function myFunction(mpyDemo2) {
+        var x = document.getElementById(mpyDemo2);
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else { 
+          x.className = x.className.replace(" w3-show", "");  }}</script>
+      
+   
 
 
 
-  <div class="card " id="btsize" onclick="myFunction1()" style=" text-align: center;  cursor: pointer;     color: black; transition: all 0.6s ease 0s; background-color: #FFEF3C; border-radius: 20px;"><h1 style=" font-family: 'Lobster', cursive; font-size:25px;">Computer Vision </h1></div>
 
 
 
-<!-------------------- TOPIC TABLE  1 ---------------------->
-<span  id="myDIV1" style="display: none; transition: all 0.6s ease 0s;">
-<div  id="tableres"   style="text-align: center;   ">
-<table class="table" >
-  
-<tr>  
-<th style=" text-align: center;">Topic </th> 
-<th style="text-align: center; ">Projects</th>
-</tr>
 
-<tr>
-  <td rowspan="3"><h4 style=" text-align: center; font-size:35px;  font-weight: bold; font-family: 'Lobster', cursive;"> Computer Vision </h4></td>
- 
-<td >
-<ul style="padding-left:20px;">
-<a href="#"><li> OpenCv Basic</li></a>
-<a href="#"><li> Motion Detection</li></a>
-<a href="#"><li> Face Detection</li></a>
-<a href="#"><li> Mask Detection</li></a>
-<a href="#"><li> Face Recognition</li></a>
-<a href="#"><li> Emotion Recognition</li></a>
-<a href="#"><li> Edge Detection</li></a>
-<a href="#"><li> Detecting Contours</li></a>
-<a href="#"><li> Barcode and QR Code Scanner</li></a>
-<a href="#"><li> Watermarking Images</li></a>
-<a href="#"><li> Image Segmentation</li></a>
-<a href="#"><li> Cartoonifying an Image </li></a>
-<a href="#"><li> Human Counting </li></a>
-<a href="#"><li> Mobile Document Scanner</li></a>
-<a href="#"><li> Air Canvas</li></a>
-<a href="#"><li> Selfie Capture when the User Smiles</li></a>
-<a href="#"><li> Data Augmentation Generator</li></a>
-<a href="#"><li> Colour Detection</li></a>
-<a href="#"><li> Hand Gesture Recognition</li></a>
-<a href="#"><li> Blur the Face</li></a>
-<a href="#"><li> Photo Sketching</li></a>
-<a href="#"><li> Handwritten Digits Recognition</li></a>
-<a href="#"><li> Good Dog Capture </li></a>
-<a href="#"><li> Fire Detection</li></a>
-<a href="#"><li> Car Count</li></a>
-<a href="#"><li> Emojify</li></a>
-<a href="#"><li> Vehicle Counting and Classification</li></a>
-</ul></td></tr>
-</table>
-</div>
- <br>
-</span>
 
-  <!-------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
 <script>
-function myFunction1() {
-  var x = document.getElementById("myDIV1");
-  if (x.style.display === "none") {x.style.display = "block";} 
-  else {x.style.display = "none";}}
+function openLeftMenu() {
+  document.getElementById("leftMenu").style.display = "block";
+}
+
+function closeLeftMenu() {
+  document.getElementById("leftMenu").style.display = "none";
+}
+
+function openRightMenu() {
+  document.getElementById("rightMenu").style.display = "block";
+}
+
+function closeRightMenu() {
+  document.getElementById("rightMenu").style.display = "none";
+}
 </script>
- <!-------------------------------------------------------------------------->
-
-
-
-
-
-
-
-
-
-
-
-<!----------------------------- BUTTON 2 ------------------------------------>
-<div class="card" id="btsize" onclick="myFunction2()" style="text-align: center; cursor: pointer;  color: black; transition: all 0.6s ease 0s; background-color: #FFEF3C; border-radius: 20px;"><h1 style="font-family: 'Lobster', cursive; font-size:25px;">NLP </h1></div>
-
-<!-------------------- TOPIC TABLE  2 ---------------------->
-<span  id="myDIV2" style="display: none; transition: all 0.6s ease 0s;">
-<div  id="tableres"   style="text-align: center;   ">
-<table class="table" >
-  
-  
-<tr>  
-<th style=" text-align: center;">Topic </th> 
-<th style="text-align: center; ">Projects</th>
-</tr>
-
-<tr>
-  <td rowspan="3"><h4 style=" text-align: center; font-size:35px;  font-weight: bold; font-family: 'Lobster', cursive;"> Natural language processing </h4></td>
- 
-<td >
-<ul style="padding-left:20px;">
-  <a href="#"><li> OpenCv Basic</li></a>
-<a href="#"><li> Motion Detection</li></a>
-<a href="#"><li> Face Detection</li></a>
-<a href="#"><li> Mask Detection</li></a>
-<a href="#"><li> Face Recognition</li></a>
-<a href="#"><li> Emotion Recognition</li></a>
-<a href="#"><li> Recognition</li></a>
-<a href="#"><li> Handwritten Digits Recognition</li></a>
-<a href="#"><li> Fire Detection</li></a>
-<a href="#"><li> Car Count</li></a>
-<a href="#"><li> Emojify</li></a>
-</ul></td></tr>
-</table>
-</div>
- <br>
-</span>
-
-  <!-------------------------------------------------------------------------->
-<script>
-function myFunction2() {
-  var x = document.getElementById("myDIV2");
-  if (x.style.display === "none") {x.style.display = "block";} 
-  else {x.style.display = "none";}}
-</script>
- <!-------------------------------------------------------------------------->
-
-
-  
-
-
-
-
-
-
-<!----------------------------- BUTTON 3 ------------------------------------>
-<div class="card" id="btsize" onclick="myFunction3()" style="text-align: center; cursor: pointer;  color: black; transition: all 0.6s ease 0s; background-color: #FFEF3C; border-radius: 20px;"><h1 style="font-family: 'Lobster', cursive; font-size:25px;"> ML </h1></div>
-
-<!-------------------- TOPIC TABLE  2 ---------------------->
-<span  id="myDIV3" style="display: none; transition: all 0.6s ease 0s;">
-<div  id="tableres"   style="text-align: center;   ">
-<table class="table" >
-  
-<tr>  
-<th style=" text-align: center;">Topic </th> 
-<th style="text-align: center; ">Projects</th>
-</tr>
-
-<tr>
-<td rowspan="3"><h4 style=" text-align: center; font-size:35px;  font-weight: bold; font-family: 'Lobster', cursive;"> Machine Learning </h4></td>
-<td >
-<ul style=" padding-left:20px;">
-  <a href="#"><li> A customer support bot </li></a>
-<a href="#"><li> A predictive text generator </li></a>
-<a href="#"><li> A media monitor  </li></a>
-<a href="#"><li> Mask Detection</li></a>
-<a href="#"><li> Face Recognition</li></a>
-<a href="#"><li> Emotion Recognition</li></a>
-<a href="#"><li> Recognition</li></a>
-<a href="#"><li> Handwritten Digits Recognition</li></a>
-<a href="#"><li> Fire Detection</li></a>
-<a href="#"><li> Car Count</li></a>
-<a href="#"><li> Emojify</li></a>
-</ul></td></tr>
-</table>
-</div>
- <br>
-</span>
-
-  <!-------------------------------------------------------------------------->
-<script>
-function myFunction3() {
-  var x = document.getElementById("myDIV3");
-  if (x.style.display === "none") {x.style.display = "block";} 
-  else {x.style.display = "none";}}
-</script>
- <!-------------------------------------------------------------------------->
-
-
-<br><br><br><br>
-<br><br><br><br>
-
-</div>
-
-</div>
-
-
-
- <!---------------------------------------------------------------------------->
-
+     
 </body>
 </html>
